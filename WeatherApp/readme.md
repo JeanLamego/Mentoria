@@ -2,8 +2,8 @@
 
 ### Tarefas:
 
-- [] Definir as melhores definições para Brasil
-- [] Montar a estrutura do HTML
+- [x] Definir as melhores definições para Brasil
+- [x] Montar a estrutura do HTML
 - [] Background Automático
 - [] Criar a div do card
 - [] Dar uma Checada na Responsividade
