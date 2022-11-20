@@ -1,0 +1,132 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-size: 15px;
+    
+}
+.container-all{
+    margin: 20px auto;
+    padding: 50px;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+}
+.container-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto 3em auto;
+    padding: 1em 0;
+    
+}   
+.container-header h1{
+    font-size: 1.7em;
+    color: hsl(234, 12%, 34%);
+    font-weight :200;
+}
+.container-header h2{
+    font-size: 1.7em;
+    color: hsl(234, 12%, 34%);
+    font-weight :600;
+}
+.container-header p{
+    padding: 1em;
+    font-size: .8em;
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    text-align: center;
+}
+
+.container-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    grid-row-gap:30px;
+    
+    
+ }
+
+ .container-cards h1{
+    font-size: 1.3em;
+    padding-bottom: 10px;
+    
+}
+.container-cards p{
+    color: hsl(229, 6%, 66%);;
+    font-size: 13px;
+    padding-bottom:60px;
+    line-height: 1.4em;
+}
+.container-cards h1,p{
+    text-align: left;
+
+}
+ .mid-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+ }
+
+ .supervisor-card, .calculator-card {
+    align-self: center;
+ }
+
+.karma-card{
+    border-top: 4px solid hsl(34, 97%, 64%);  
+}
+
+.team-builder-card{
+    border-top: 4px solid hsl(0, 78%, 62%);
+    margin-bottom:30px;
+}
+.supervisor-card{
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.team-builder-card{
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+.calculator-card{
+    border-top: 4px solid hsl(212, 86%, 64%);
+    
+    
+}
+
+.team-builder-card, .supervisor-card, .karma-card, .calculator-card {
+    border-radius: 10px;
+    width:300px ;
+    height: 200px;
+    padding: 25px;
+    margin: 0 15px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.5);
+    text-align: right;
+}
+
+    
+@media only screen and (max-width:844px) {
+    
+
+
+    .container-all{ 
+        margin-top: 0;    
+                    
+}
+    .container-cards{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+}
+ .container-header{
+    text-align: center;
+    width: fit-content;
+    
+ }
+    
+}
