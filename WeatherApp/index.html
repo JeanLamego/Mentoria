@@ -6,20 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
     <title>Weather App</title>
 </head>
 <body>
     <div class="card-container">
         <div class="search">
-            <input type="text" class="search-bar">
-            <button><img src="./assets/search-icon.svg" alt="Lupa"></button>
+            <input type="text" class="search-bar" placeholder="Cidade">
+            <button class="btn"><img src="./assets/search-icon.svg" alt="Lupa"></button>
         </div>
-        <h1 class="weather">Tempo agora em Rio de Janeiro</h1>
-        <h2 class="temperature">29 °C</h2>
-        <h3 class="feels-like">Sensação Térmica 33 °C</h3>
-        <p class="clouds">Poucas Nuvens</p>
-        <p class="humidity">Umidade:71% </p>
-        <p class="wind">Vento:20km/h</p>
+            <div class="weather">
+            <h2 class="city">Tempo agora em Rio de Janeiro</h1>
+            <h1 class="temperature"> 29 °C</h2>
+            <div class="feels-like">Sensação Térmica 33 °C</div>
+            <div class="clouds">Poucas Nuvens</div>
+            <div class="humidity"><img src="./assets/humidity-icon.svg" alt="Ícone referente a umidade">
+                Umidade:71% </div>
+            <p class="wind"><img src="./assets/wind-icon.svg" alt="Ícone referente ao vento">
+                Vento:20km/h</div>
+        </div>
     </div>
 </body>
 </html>
