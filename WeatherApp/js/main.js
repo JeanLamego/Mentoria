@@ -18,5 +18,8 @@ let weather={
         console.log(name,icon,description,humidity,temp,feels_like,speed)
         document.querySelector(".city").innerText = "Tempo agora em " + name;
         document.querySelector(".icon").src="https://openweathermap.org/img/wn/"+ icon +".png";
+        document.querySelector(".clouds").innerText= description;
+        document.querySelector(".feels-like").innerText="Sensação Térmica: "+feels_like+"°C";
+        document.querySelector(".temp").innerText=temp+"°C";
     }
 };
