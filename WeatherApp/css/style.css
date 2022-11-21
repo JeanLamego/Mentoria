@@ -12,12 +12,14 @@ body {
     
 }
 .card-container{
-    background-color: rgba(17, 62, 102, 0.777);
+    background-color: rgba(17, 62, 102, 0.878);
     border-radius: 20px;
     width: 100%;
     max-width: 420px;
+   color: rgb(233, 233, 233);
     margin: 2em;
     padding: 1em;
+    
     
 }
 .search {
@@ -37,22 +39,32 @@ body {
 }
 .btn{
 
-border: none;
-outline: none;
-height: 40px;
-width: 40px;
-border-radius: 50%;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.weather{
+    
 }
 
 .city{
-    font-size: 1.8em;
+    font-size: 1.7em;
     font-weight: 500;
 }
 .temperature{
     font-size: 3em;
     font-weight: 500;
+    margin: .2em 0;
 }
 .feels-like{
     float:right;
     margin: 0 1em;
+}
+
+.feels-like,.clouds, .humidity, .wind{
+    
+    font-size: 1.1em;
+
 }
