@@ -22,7 +22,8 @@ let weather={
         document.querySelector(".feels-like").innerText="Sensação Térmica: "+feels_like+"°C";
         document.querySelector(".temp").innerText=temp+"°C";
         document.querySelector(".humidity").innerText="Umidade: " + humidity +"%";
-        document.querySelector(".wind").innerText="Vento: " + speed + "km/h"
+        document.querySelector(".wind").innerText="Vento: " + speed + "km/h";
+        document.body.style.backgroundImage= "url('https://source.unsplash.com/1920x1080/?"+ name +"')"
     },
     search: function(){
         this.fetchWeather(document.querySelector(".search-bar").value);
