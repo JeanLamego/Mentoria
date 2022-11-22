@@ -36,6 +36,8 @@ body {
     outline: none;
     border-radius: 28px;
     width: 200px;
+    background-color:rgba(89, 87, 87, 0.580);
+    text-transform: capitalize;
 }
 .btn{
 
@@ -44,13 +46,18 @@ body {
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    cursor:pointer;
+    background-color:rgba(89, 87, 87, 0.580);
+    
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.700);
 }
 .flex{
     display: flex;
     align-items: center;
-    
-    
-    
+    text-transform: capitalize;
+
 }
 
 .city{
@@ -62,12 +69,8 @@ body {
     font-weight: 500;
     margin: .2em 0;
 }
-.feels-like{
-    
-    margin: 0 0.8em 0 1.3em;
-}
 
-.clouds, .humidity, .wind{
+.feels-like, .clouds, .humidity, .wind{
     margin-left: .4em;
     font-size: 1.1em;
 
