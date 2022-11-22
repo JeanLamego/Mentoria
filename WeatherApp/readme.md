@@ -18,10 +18,10 @@ Aplicativo do tempo com informações em tempo real.
 <br>
 
 <p align="center">
-  <img alt="Aplicativo do tempo" src=".github/preview.jpg" width="100%">
+  <img alt="Aplicativo do tempo" src=".github/preview.jpg" width="100%"/>
 </p>
 <p align="center">
-  <img alt="Aplicativo do tempo no celular" src=".github/mobile preview.jpg" width="50%">
+  <img alt="Aplicativo do tempo no celular" src=".github/mobile preview.jpg" width="50%"/>
 </p>
 
 ## 🚀 Tecnologias
