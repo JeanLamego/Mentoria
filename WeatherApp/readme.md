@@ -7,12 +7,13 @@
 - [x] Background Automático
 - [x] Criar a div do card
 - [x] Dar uma Checada na Responsividade
-- [] Dar uma entendida em JS
+- [x] Dar uma entendida em JS
+- [x] --Aprender a consumir API--
 - [] Criar o button com JS
-- [] --Aprender a consumir API--
+- [] Interagi a Search bar com a API
+- [] Remover o conteúdo ao carregar
 - [] Finalizar o Projeto
 
 ### Extra:
-- [] Fazer o fundo se mexer
 - [] Ao pesquisar o nome, o fundo ser relativo ao nome
 

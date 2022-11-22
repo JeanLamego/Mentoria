@@ -16,7 +16,7 @@ body {
     border-radius: 20px;
     width: 100%;
     max-width: 420px;
-   color: rgb(233, 233, 233);
+    color: rgb(233, 233, 233);
     margin: 2em;
     padding: 1em;
     
@@ -50,6 +50,7 @@ body {
     align-items: center;
     
     
+    
 }
 
 .city{
@@ -67,7 +68,7 @@ body {
 }
 
 .clouds, .humidity, .wind{
-    
+    margin-left: .4em;
     font-size: 1.1em;
 
 }

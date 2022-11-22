@@ -15,11 +15,14 @@ let weather={
         const {icon, description} = data.weather[0];
         const {humidity, temp, feels_like} = data.main;
         const {speed}= data.wind;
+    
         console.log(name,icon,description,humidity,temp,feels_like,speed)
         document.querySelector(".city").innerText = "Tempo agora em " + name;
         document.querySelector(".icon").src="https://openweathermap.org/img/wn/"+ icon +".png";
         document.querySelector(".clouds").innerText= description;
         document.querySelector(".feels-like").innerText="Sensação Térmica: "+feels_like+"°C";
         document.querySelector(".temp").innerText=temp+"°C";
+        document.querySelector(".humidity").innerText="Umidade: " + humidity +"%";
+        document.querySelector(".wind").innerText="Vento: " + speed + "km/h"
     }
 };
